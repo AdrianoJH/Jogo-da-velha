@@ -97,6 +97,13 @@ h1 {
     border-radius: 50%;
 }
 
+#message {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 #message p {
     position: absolute;
     margin-left: auto;
