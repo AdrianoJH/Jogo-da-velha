@@ -1,0 +1,112 @@
+body {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+h1 {
+    font-size: 42px;
+}
+
+#buttons-container button {
+    border: none;
+    padding: 10px 15px;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+#container {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 300px;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    top: 100px;
+}
+
+.box {
+    height: 100px;
+    border: 5px solid #000;
+    box-sizing: border-box;
+    flex: 1 1 33%;
+    cursor: pointer;
+}
+
+#block-1, #block-2, #block-3 {
+    border-top: none;
+}
+
+#block-1, #block-4, #block-7 {
+    border-left: none;
+}
+
+#block-7, #block-8, #block-9 {
+    border-bottom: none;
+}
+
+#block-3, #block-6, #block-9 {
+    border-right: none;
+}
+
+.x {
+    display: inline-block;
+    font-size: 65px;
+    line-height: 100px;
+    color: red;
+}
+
+.o {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    margin-top: 17px;
+    border: 5px solid green;
+    border-radius: 50%;
+}
+
+.hide {
+    display: none !important;
+}
+
+#scoreboard-container {
+    position: relative;
+    margin-top: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.score-box {
+    margin: 0 20px;
+}
+
+#x-scoreboard {
+    color: red;
+    margin-right: 3px;
+}
+
+#o-scoreboard {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    margin-right: 3px;
+    border: 2px solid green;
+    border-radius: 50%;
+}
+
+#message p {
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 255px;
+    width: 500px;
+    font-size: 50px;
+    background-color: #000;
+    color: #fff;
+    padding: 20px;
+}
